@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise site</title>
+        <style>
+            img{
+                margin: 40px;
+                width: 113px;
+                height: 113px;
+            }
+            .cat1 {
+                width: 200px;
+                border-radius: 14px;
+            }
+
+            .cat2 {
+                object-fit: cover;
+            }
+
+            .cat3 {
+                object-fit: cover;
+                border-radius: 50%;
+            }
+
+            .rounded-corners {
+                border-width: 0.5px;
+                font-size: 20px;
+                border-radius: 8px;
+                height: 33px;
+                border-color: gray;
+                padding-left: 14px;
+                width: 180px;
+                margin-right: 10px;
+                cursor: text;
+            }
+
+            .shadow {
+                width: 350px;
+                font-size: 14px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 14px;
+                border-radius: 150px;
+                box-shadow: 1px 1px 4px rgb(185, 183, 183);
+                border: 0px;
+                cursor:text
+            }
+
+            .linkein {
+                flex-direction: row;
+            }
+
+            .linkedin-text {
+                margin-bottom: 8px;
+                font-size: 12px;
+            }
+            .linkedin-text1 {
+                font-size: 10.2px;
+            }
+
+            .linkedin-input{
+                width: 230px;
+                font-size: 16px;
+            }
+
+            .linkedin-button {
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                color: white;
+                background-color: rgb(19, 90, 177);
+                border: 0px;
+                border-radius: 40px;
+                display: block;
+                margin-bottom: 80px;
+            }
+            .input1, .input2 {
+                margin-bottom: 12px;
+                width: 120px;
+                padding-top: 10px;
+                border-width: 0.1px;
+                border-color: rgb(195, 195, 195);
+                padding-bottom: 10px;
+                padding-left: 7px;
+                border-radius: 6px;
+            }
+
+            .input3 {
+                display: block;
+                width: 257px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 7px;
+                border-width: 0.1px;
+                border-color: rgb(195, 195, 195);
+                border-radius: 6px;
+                margin-bottom: 12px;
+            }
+
+            .button-form1 {
+                padding-left: 112px;
+                padding-right: 112px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                color: white;
+                background-color: rgb(19, 115, 225);
+                border: 0px;
+                border-radius: 6px;
+                display: block;
+                margin-bottom: 40px;
+                cursor: pointer;
+            }
+
+            .button-form1:hover {
+                opacity: 0.6;
+            }
+
+            .square-div {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: inline-block;
+            margin: 15px;
+            }
+
+            .round-div {
+                height: 100px;
+                width: 100px;
+                background-color: green;
+                display: inline-block;
+                margin: 15px;
+                border-radius: 50px;
+            }
+
+            .service {
+                border: 2px;
+                border-width: 2px;
+                border-color: green;
+                width: 300px;
+                height: 100px;
+                padding-top: 0.15px;
+                padding-left: 10px;
+            }
+
+            .youtubem{
+                background-color: rgb(37, 36, 36);
+                width: 300px;
+                padding-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .youtubep{
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                margin-bottom: 0px;
+                font-family: arial;
+                margin-top: 9px;
+            }
+
+            .youtubep1{
+                margin-top: 6px;
+                color: rgb(143, 141, 141);
+                font-size: 13px;
+                font-family: arial;
+                margin-bottom: 9px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img class="cat1" src="thumnails/cat.jpeg" alt="">
+            <img class="cat2" src="thumnails/cat.jpeg" alt="">
+            <img class="cat3" src="thumnails/cat.jpeg" alt="">
+        </div>
+        <div>
+            <input 
+                class="rounded-corners"
+                type="text"
+                placeholder="Search"
+                >
+
+                <input 
+                class="shadow"
+                type="text"
+                placeholder="Search Google or type a URL"
+                >
+        </div>
+
+        <div class="linkedin">
+            <p class="linkedin-text">Email</p>
+            <input class="linkedin-input" type="text">
+            
+        </div>
+        <p class="linkedin-text1">By clicking Agree & Join, you agree to the Privacy Policy</p>
+        <button class="linkedin-button">Agree & Join</button>
+        
+        <input class="input1" type="text" placeholder="First name">
+        <input class="input2" type="text" placeholder="Last name">
+        <input class="input3" type="text" placeholder="Email">
+        <button class="button-form1">Sign Up</button>
+
+        <div class="square-div"></div>
+
+        <div class="round-div"></div>
+        <div class="service">
+            <p class="servicep">Satisfied with our service?</p>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+
+        <div class="youtubem">
+            <p class="youtubep">Install TouTube Music</p>
+            <p class="youtubep1">Add Youtube Music to your desktop for quick and easy access</p>
+        </div>
+    </body>
+</html>
