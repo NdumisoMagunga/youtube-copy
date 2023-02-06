@@ -48,15 +48,17 @@
                 margin-right: 15px;
             }
 
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+
             .profile-pic {
-                display:inline-block;
-                width: 50px;
-                vertical-align: top;
+                background-color: gray;
             }
 
             .video-info {
-                display: inline-block;
-                width: 240px;
+                background-color: gray;
             }
 
             .picture {
@@ -81,7 +83,7 @@
             <div class="thumnail-row">
                 <img  class="thumnail1"src="thumnails/pic 1.webp" >
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="profile-pic">
                     <img class="picture"  src="profile-pic/profile1.jpeg" >
                 </div>
@@ -92,10 +94,8 @@
                     </p>
                     <p class="author">Marques Brownlee</p>
                     <p class="video-stats">3.4M views &#183; 6 months ago</p>
-                </div>
-                
-         </div>
-        
+                </div> 
+            </div>
         </div>
 
         <div class="video-preview">
@@ -103,7 +103,7 @@
                  <img  class="thumnail1"src="thumnails/pic2.webp" >
             </div>
 
-           <div>
+           <div class="video-info-grid">
             <div class="profile-pic">
                 <img class="picture" src="profile-pic/profile2.jpeg" alt="">
             </div>
