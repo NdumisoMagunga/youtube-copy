@@ -6,8 +6,8 @@
 }
 
 .left-section {
-    background-color: lightblue;
-    width: 150px
+    align-items: center;
+    display: flex;
 }
 
 .middle-section{
@@ -21,4 +21,14 @@
 .right-section{
     background-color: lightblue;
     width: 200px;
+}
+
+.hambuger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+.youtube-logo {
+    height: 20px;
 }
