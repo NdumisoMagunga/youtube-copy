@@ -71,7 +71,10 @@
 
 .search-button .tooltip, 
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip{
+.upload-icon-container .tooltip,
+.youtube-app-icon-container .tooltip,
+.notification-container .tooltip,
+.current-user-container .tooltip{
     position: absolute;
     background-color: gray;
     color: white;
@@ -86,18 +89,23 @@
     transition: opacity 0.15s;
     pointer-events: none;
     white-space: nowrap;
-
 }
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip{
+.upload-icon-container:hover .tooltip,
+.youtube-app-icon-container:hover .tooltip,
+.notification-container:hover .tooltip,
+.current-user-container:hover .tooltip{
     opacity: 1;
 }
 
 .search-button,
 .voice-search-button,
-.upload-icon-container{
+.upload-icon-container,
+.youtube-app-icon-container,
+.notification-container,
+.current-user-container{
     display: flex;
     justify-content: center;
     align-items: center;
