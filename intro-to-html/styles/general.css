@@ -1,5 +1,4 @@
 p {
-    
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -7,6 +6,7 @@ p {
 body {
     font-family: Roboto, Arial;
     margin: 0px;
+    margin-bottom: 20px;
     padding-top: 80px;
     padding-left: 96px;
     padding-right: 24px;
